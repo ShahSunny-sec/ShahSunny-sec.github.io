@@ -364,83 +364,215 @@
       </div>
     </section>
 
-    <!-- PROJECTS -->
+        <!-- PROJECTS -->
     <section id="projects" class="section alt">
       <div class="container">
-        <div class="section-head">
-          <h2>Projects</h2>
-          <p class="section-intro">Systems I built to improve correlation, investigation speed, and alert quality.</p>
-        </div>
+        <h2>Projects</h2>
 
-        <div class="card-grid projects-grid">
+        <div class="card-grid">
 
-                <!-- Project 1 (Featured) -->
-                <div class="card">
-        <h3>Agentic AI Threat Correlation Engine</h3>
-        <p class="meta">An agentic correlation engine that links related security signals into actionable incidents for faster response.</p>
-
-        <details class="case-study">
-          <summary>Impact &amp; Implementation</summary>
-
-          <div class="case-columns">
-            <div class="case-block">
-              <p class="case-label">Implementation</p>
-              <ul class="impact-list">
-                <li>Designed an agent-based correlation architecture to group related alerts into unified security incidents.</li>
-                <li>Built Python-based data pipelines to ingest, normalize, and enrich multi-source security telemetry.</li>
-                <li>Implemented behavior-based analytics to identify relationships across alerts using contextual attributes (timestamps, hosts, users, IOCs).</li>
-                <li>Developed a threat intelligence enrichment engine to aggregate and attach contextual data directly into case records.</li>
-                <li>Integrated optimized SIEM/SOAR rule logic to reduce redundant alerts and improve signal precision.</li>
-                <li>Structured correlated outputs for operational use in investigation workflows and reporting.</li>
-              </ul>
+          <!-- Project 1 -->
+          <div class="card project-card">
+            <div class="project-head">
+              <h3>Agentic AI Threat Correlation Engine</h3>
+              <div class="project-links">
+                <a href="https://github.com/ShahSunny-sec" target="_blank" rel="noopener">GitHub</a>
+              </div>
             </div>
 
-            <div class="case-block">
-              <p class="case-label">Impact</p>
-              <ul class="impact-list">
-                <li>Reduced incident response time by 40% by automatically linking related alerts into actionable cases.</li>
-                <li>Decreased false positives by 90%, significantly improving alert fidelity and analyst efficiency.</li>
-                <li>Improved detection accuracy through behavior-based correlation and contextual enrichment.</li>
-                <li>Accelerated enterprise triage by reducing manual alert stitching and investigation overhead.</li>
-                <li>Strengthened decision-making by delivering enriched, investigation-ready case data.</li>
-              </ul>
-            </div>
+            <p class="meta">An agentic correlation engine that links related security signals into actionable incidents for faster response.</p>
+
+            <details class="case-study">
+              <summary>Impact &amp; Implementation</summary>
+
+              <div class="case-columns">
+                <div class="case-block">
+                  <p class="case-label">Implementation</p>
+                  <ul class="impact-list">
+                    <li>Designed an agent-based correlation architecture to group related alerts into unified security incidents.</li>
+                    <li>Built Python-based data pipelines to ingest, normalize, and enrich multi-source security telemetry.</li>
+                    <li>Implemented behavior-based analytics to identify relationships across alerts using contextual attributes (timestamps, hosts, users, IOCs).</li>
+                    <li>Developed a threat intelligence enrichment engine to aggregate and attach contextual data directly into case records.</li>
+                    <li>Integrated optimized SIEM/SOAR rule logic to reduce redundant alerts and improve signal precision.</li>
+                    <li>Structured correlated outputs for operational use in investigation workflows and reporting.</li>
+                  </ul>
+                </div>
+
+                <div class="case-block">
+                  <p class="case-label">Impact</p>
+                  <ul class="impact-list">
+                    <li>Reduced incident response time by 40% by automatically linking related alerts into actionable cases.</li>
+                    <li>Decreased false positives by 90%, significantly improving alert fidelity and analyst efficiency.</li>
+                    <li>Improved detection accuracy through behavior-based correlation and contextual enrichment.</li>
+                    <li>Accelerated enterprise triage by reducing manual alert stitching and investigation overhead.</li>
+                    <li>Strengthened decision-making by delivering enriched, investigation-ready case data.</li>
+                  </ul>
+                </div>
+              </div>
+            </details>
           </div>
-        </details>
-      </div>
 
-      <div class="card">
-        <h3>Threat-Scoped Incident Investigation Platform</h3>
-        <p class="meta">A platform that consolidates security telemetry and maps attacker paths to speed scoping and prioritization.</p>
-
-        <details class="case-study">
-          <summary>Impact &amp; Implementation</summary>
-
-          <div class="case-columns">
-            <div class="case-block">
-              <p class="case-label">Implementation</p>
-              <ul class="impact-list">
-                <li>Built a centralized investigation platform consolidating multi-source security telemetry into structured incident workflows.</li>
-                <li>Implemented recursive attack path analysis across multi-domain logs to trace lateral movement and attacker progression.</li>
-                <li>Mapped attacker behavior to MITRE ATT&amp;CK techniques for standardized investigation classification.</li>
-                <li>Designed automated enrichment and correlation pipelines to unify endpoint, network, and application telemetry.</li>
-                <li>Leveraged SIEM analytics to enable rapid blast-radius assessment and prioritization.</li>
-              </ul>
+          <!-- Project 2 -->
+          <div class="card project-card">
+            <div class="project-head">
+              <h3>Threat-Scoped Incident Investigation Platform</h3>
+              <div class="project-links">
+                <a href="https://github.com/ShahSunny-sec" target="_blank" rel="noopener">GitHub</a>
+              </div>
             </div>
 
-            <div class="case-block">
-              <p class="case-label">Impact</p>
-              <ul class="impact-list">
-                <li>Reduced investigation time by ~40% through automated attack path mapping.</li>
-                <li>Saved 300+ analyst hours annually by reducing manual incident review effort.</li>
-                <li>Increased detection accuracy by 30% through correlated multi-source analysis.</li>
-                <li>Accelerated incident scoping and prioritization in enterprise-scale environments.</li>
-                <li>Improved analyst consistency by standardizing investigation workflows and telemetry correlation.</li>
-              </ul>
-            </div>
+            <p class="meta">A centralized investigation platform that consolidates security telemetry and maps attacker paths to speed scoping and prioritization.</p>
+
+            <details class="case-study">
+              <summary>Impact &amp; Implementation</summary>
+
+              <div class="case-columns">
+                <div class="case-block">
+                  <p class="case-label">Implementation</p>
+                  <ul class="impact-list">
+                    <li>Built a centralized investigation platform consolidating multi-source security telemetry into structured incident workflows.</li>
+                    <li>Implemented recursive attack path analysis across multi-domain logs to trace lateral movement and attacker progression.</li>
+                    <li>Mapped attacker behavior to MITRE ATT&amp;CK techniques for standardized investigation classification.</li>
+                    <li>Designed automated enrichment and correlation pipelines to unify endpoint, network, and application telemetry.</li>
+                    <li>Leveraged SIEM analytics to enable rapid blast-radius assessment and prioritization.</li>
+                  </ul>
+                </div>
+
+                <div class="case-block">
+                  <p class="case-label">Impact</p>
+                  <ul class="impact-list">
+                    <li>Reduced investigation time by ~40% through automated attack path mapping.</li>
+                    <li>Saved 300+ analyst hours annually by reducing manual incident review effort.</li>
+                    <li>Increased detection accuracy by 30% through correlated multi-source analysis.</li>
+                    <li>Accelerated incident scoping and prioritization in enterprise-scale environments.</li>
+                    <li>Improved analyst consistency by standardizing investigation workflows and telemetry correlation.</li>
+                  </ul>
+                </div>
+              </div>
+            </details>
           </div>
-        </details>
-      </div>
+
+          <!-- Project 3 -->
+          <div class="card project-card">
+            <div class="project-head">
+              <h3>Threat Intelligence Feed Analyzer</h3>
+              <div class="project-links">
+                <a href="https://github.com/ShahSunny-sec" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+
+            <p class="meta">IOC matching + correlation across logs, enrichment links, and MITRE ATT&CK mapping for SOC-style investigations.</p>
+
+            <details class="case-study">
+              <summary>Impact &amp; Implementation</summary>
+
+              <div class="case-columns">
+                <div class="case-block">
+                  <p class="case-label">Implementation</p>
+                  <ul class="impact-list">
+                    <li>Built a log parsing workflow that ingests uploaded logs and normalizes events for analysis.</li>
+                    <li>Implemented IOC matching against threat intelligence feeds to flag suspicious indicators across events.</li>
+                    <li>Added correlation logic to highlight IOCs that appear multiple times across logs, supporting “case-style” investigation views.</li>
+                    <li>Generated investigation-ready outputs that surface key evidence (matched IOC, event context, and frequency across logs).</li>
+                    <li>Integrated enrichment as outbound links (VirusTotal / AbuseIPDB) to support fast analyst pivoting without blocking on API calls.</li>
+                    <li>Built summary intelligence metrics including logs scanned, IOCs detected, high-risk IOCs, and top mapped MITRE tactics/techniques.</li>
+                  </ul>
+                </div>
+
+                <div class="case-block">
+                  <p class="case-label">Impact</p>
+                  <ul class="impact-list">
+                    <li>Speeds SOC investigations by turning raw logs into correlated IOC evidence with clear pivots and context.</li>
+                    <li>Reduces manual effort by automatically surfacing repeat IOCs across multiple events and log sources.</li>
+                    <li>Improves triage quality by pairing matched indicators with enrichment pivots (VirusTotal / AbuseIPDB) and analyst tagging.</li>
+                    <li>Makes threat intel operational by mapping detected activity to MITRE ATT&CK tactics/techniques for quick classification.</li>
+                    <li>Provides at-a-glance visibility into what matters most (high-risk IOCs, top tactics/techniques, overall scan coverage).</li>
+                  </ul>
+                </div>
+              </div>
+            </details>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="card project-card">
+            <div class="project-head">
+              <h3>Cloud Incident Correlation and Detection (CIRC) Platform</h3>
+              <div class="project-links">
+                <a href="https://github.com/ShahSunny-sec/circ-platform" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+
+            <p class="meta">Cloud-based log ingestion and incident correlation with IOC matching, enrichment, and MITRE ATT&amp;CK mapping for SOC investigations.</p>
+
+            <details class="case-study">
+              <summary>Impact &amp; Implementation</summary>
+
+              <div class="case-columns">
+                <div class="case-block">
+                  <p class="case-label">Implementation</p>
+                  <ul class="impact-list">
+                    <li>Built cloud log ingestion pipelines for AWS CloudTrail and VPC Flow Logs to support SOC-style investigations from cloud-native telemetry.</li>
+                    <li>Implemented rule-based detection logic to flag suspicious activity patterns in CloudTrail and network flow activity.</li>
+                    <li>Added IOC matching to identify known-bad indicators and connect them to relevant events and entities.</li>
+                    <li>Correlated related alerts into structured incidents with severity scoring and contextual mapping to support investigation prioritization.</li>
+                    <li>Integrated enrichment workflows and MITRE ATT&CK mapping to translate raw events into investigation context and attacker behavior framing.</li>
+                    <li>Built a Streamlit analyst dashboard to surface incident timelines, evidence, and investigation-ready outputs with SOC workflow visibility.</li>
+                  </ul>
+                </div>
+
+                <div class="case-block">
+                  <p class="case-label">Impact</p>
+                  <ul class="impact-list">
+                    <li>Converts high-volume AWS logs into structured, investigation-ready incidents, reducing manual log stitching.</li>
+                    <li>Improves triage quality by correlating related alerts into a single incident view with severity scoring and context.</li>
+                    <li>Makes cloud activity easier to classify by mapping detections to MITRE ATT&CK, supporting consistent escalation decisions.</li>
+                    <li>Speeds analyst workflows by combining detection, correlation, IOC matching, and enrichment into one investigation flow.</li>
+                    <li>Provides SOC-style visibility through a Streamlit dashboard that supports prioritization and investigation handoff.</li>
+                  </ul>
+                </div>
+              </div>
+            </details>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="card project-card">
+            <div class="project-head">
+              <h3>Advanced Threat Detection and Response Automation</h3>
+              <div class="project-links">
+                <a href="https://github.com/ShahSunny-sec/Advanced-Threat-Detection-and-Response-Automation" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+
+            <p class="meta">Automated threat detection pipeline with IOC matching, alert enrichment, and response-driven analytics for SOC environments.</p>
+
+            <details class="case-study">
+              <summary>Impact &amp; Implementation</summary>
+
+              <div class="case-columns">
+                <div class="case-block">
+                  <p class="case-label">Implementation</p>
+                  <ul class="impact-list">
+                    <li>Built a detection pipeline that analyzes security telemetry and flags suspicious activity using rule-based and analytic logic.</li>
+                    <li>Implemented IOC matching to identify known-bad indicators and connect them to relevant events and entities.</li>
+                    <li>Automated enrichment workflows to attach investigation context and pivot paths directly to alerts.</li>
+                    <li>Generated structured alert outputs designed for SOC workflows, including clear evidence fields and response-ready context.</li>
+                    <li>Organized detections and alert data to support fast triage, consistent escalation, and investigation handoff.</li>
+                  </ul>
+                </div>
+
+                <div class="case-block">
+                  <p class="case-label">Impact</p>
+                  <ul class="impact-list">
+                    <li>Reduces manual analyst effort by automating IOC matching and enrichment during triage.</li>
+                    <li>Speeds investigations by turning raw telemetry into structured, response-ready alerts with clear context.</li>
+                    <li>Improves consistency by standardizing how suspicious activity is detected, enriched, and packaged for response.</li>
+                    <li>Supports faster decision-making by separating high-signal alerts from noisy activity.</li>
+                    <li>Strengthens SOC workflows by producing outputs that map cleanly to investigation and response steps.</li>
+                  </ul>
+                </div>
+              </div>
+            </details>
+          </div>
 
         </div>
       </div>
